@@ -1,5 +1,5 @@
 import React from 'react';
-import './Style/ProductoSimple.css';
+import '/workspaces/E-commerce-final-project/src/Styles/ProductoSimple.css';
 
 const ProductoSimple = ({ producto }) => {
     const agregarAlCarrito = () => {

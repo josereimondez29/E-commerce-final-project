@@ -1,6 +1,6 @@
 import React from 'react';
-import ProductoSimple from './ProductoSimple';
-import './Style/GaleriaProductos.css';
+import ProductoSimple from './ProductoSimple'
+import '/workspaces/E-commerce-final-project/src/Styles/GaleriaProductos.css';
 
 const GaleriaProductos = ({ productos }) => {
     return (

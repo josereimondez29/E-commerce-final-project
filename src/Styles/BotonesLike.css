@@ -1,0 +1,27 @@
+/* Estilo base para  botones */
+button {
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    margin: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  
+  /* Estilo para el botón de "like" */
+  .liked {
+    background-color: #4CAF50; /* Verde */
+    color: white;
+  }
+  
+  /* Estilo para el botón de "dislike" */
+  .disliked {
+    background-color: #f44336; /* Rojo */
+    color: white;
+  }
+  
+  /* Estilo para el icono de Font Awesome */
+  i.fa-regular {
+    margin-right: 5px;
+  }
+  

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Swal from 'sweetalert2';
 import Toastify from 'toastify-js';
 import 'toastify-js/src/toastify.css';
-import './StylesCarrito.css'; 
+import '/workspaces/E-commerce-final-project/src/Styles/Carrito.css'; 
 
 const Carrito = () => {
     const [productosEnCarrito, setProductosEnCarrito] = useState([]);
@@ -73,7 +73,13 @@ const Carrito = () => {
 
     return (
         <div className="carrito">
-            {/* Renderizado de los productos en el carrito */}
+            {}
+            {productosEnCarrito.map(producto => (
+                <div key={producto.id} className="producto-en-carrito">
+                    <p>{producto.nombre}</p>
+                    <button onClick={() => eliminarDelCarrito(producto.id)}>Eliminar</button>
+                </div>
+            ))}
             <div className="acciones">
                 <button onClick={vaciarCarrito}>Vaciar Carrito</button>
             </div>
@@ -82,3 +88,4 @@ const Carrito = () => {
 };
 
 export default Carrito;
+

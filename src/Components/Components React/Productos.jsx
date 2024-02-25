@@ -1,6 +1,6 @@
 import React from 'react';
 import GaleriaProductos from './GaleriaProductos';
-import './Styles/Productos.css';
+import '/workspaces/E-commerce-final-project/src/Styles/Productos.css';
 
 const ProductosComponent = ({ productos }) => {
     return (
