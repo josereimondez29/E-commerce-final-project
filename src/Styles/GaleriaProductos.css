@@ -1,4 +1,4 @@
-/* Estilos para la galería de productos */
+
 .galeria-productos {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
