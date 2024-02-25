@@ -1,0 +1,31 @@
+/* Agrega tus estilos CSS para el componente Carrito aquí */
+#carrito-productos {
+    display: flex;
+    flex-direction: column;
+}
+
+.carrito-producto {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+.carrito-producto-imagen {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.carrito-producto-titulo,
+.carrito-producto-cantidad,
+.carrito-producto-precio,
+.carrito-producto-subtotal {
+    margin-right: 20px;
+}
+
+.carrito-producto-eliminar {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: red;
+}

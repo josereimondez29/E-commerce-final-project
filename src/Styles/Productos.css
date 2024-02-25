@@ -1,0 +1,41 @@
+/* Estilos para el contenedor de productos */
+#contenedor-productos {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Estilos para cada producto */
+.producto {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+  width: 200px;
+}
+
+/* Estilos para la imagen del producto */
+.producto-imagen {
+  width: 100%;
+  border-radius: 5px;
+}
+
+/* Estilos para los detalles del producto */
+.producto-detalles {
+  text-align: center;
+}
+
+/* Estilos para el botón de agregar */
+.producto-agregar {
+  background-color: #4b33a8;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.producto-agregar:hover {
+  background-color: #785ce9;
+}
+
