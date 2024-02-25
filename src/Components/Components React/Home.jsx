@@ -1,6 +1,7 @@
 import React from 'react';
 import Productos from './Productos'
 import Carrito from './Carrito';
+import '/workspaces/E-commerce-final-project/src/Styles/Home.css'
 
 const Home = () => {
     // Supongamos que tienes una lista de productos para mostrar en la página principal
